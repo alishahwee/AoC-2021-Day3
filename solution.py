@@ -1,6 +1,6 @@
-def part_one(numbers: list[str]) -> int:
+def part_one(nums: list[str]) -> int:
     pass
 
 
-def part_two(numbers: list[str]) -> int:
+def part_two(nums: list[str]) -> int:
     pass
