@@ -1,11 +1,11 @@
 from solution import part_one, part_two
 
 
-def parse_puzzle_input(file: str) -> list[int]:
+def parse_puzzle_input(file: str) -> list[str]:
     """Parse the puzzle input so that each line is an element in a list.
     Then return the list."""
     with open(file) as f:
-        return [int(num) for num in f]
+        return f.read().splitlines()
 
 
 if __name__ == "__main__":
